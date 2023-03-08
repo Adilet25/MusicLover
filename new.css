@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: black;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  background: url(./img/back1.png);
+  width: 100%;
+  height: 110%;
+  background-position: left;
+  background-size: cover;
+}
+
+.instblock {
+  background: url(./img/back2.png);
+  width: 100%;
+  height: 110%;
+  background-position: left;
+  background-size: cover;
+}
+
+#main {
+  background: transparent;
+  width: 98%;
+  height: 50px;
+}
+
+#main .logo {
+  float: left;
+}
+
+.logo {
+  background: url(./img/logo.png);
+  width: 80px;
+  height: 80px;
+  background-position: left;
+  background-size: cover;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+#main nav ul {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#main nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+#main nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 13px;
+  transition: 0.4s all ease-out;
+  /* font-family: sans-serif; */
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 5px 20px grey;
+  color: black;
+  transition: 0.4s all ease-out;
+}
+
+.text {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 54%;
+  left: 35%;
+}
+
+.text h1 {
+  color: black;
+
+  font-size: 100px;
+  text-align: left;
+}
+.text p {
+  color: black;
+  font-size: 25px;
+  width: 70%;
+  /* font-family: Lucida Console; */
+}
+
+.text span {
+  width: 4px;
+  height: 20px;
+  background: #243630;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 5%;
+  left: -15%;
+}
+
+.text p {
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 3px;
+  color: black;
+
+  /* font-family: Lucida Console; */
+}
+button {
+  width: 150px;
+  height: 45px;
+  border: none;
+  background: #4e4e4e;
+  color: #fff;
+  transition: 0.5s all ease-out;
+  margin-top: 10px;
+  border-radius: 3px;
+  /* font-family: Lucida Console; */
+}
+
+button:hover {
+  background: #transparent;
+  border: 1px solid #fff;
+  box-shadow: 0px 5px 20px grey;
+  transition: 0.5s all ease-out;
+}
+
+body {
+  background-color: #fff;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  /* font-family: Gothic; */
+}
+.type1 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type2 {
+  width: 30%;
+  position: absolute;
+  top: 150%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.type3 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type4 {
+  width: 30%;
+  position: absolute;
+  top: 150%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.type5 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type6 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.type7 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type8 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.type9 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type10 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.type11 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type12 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.type13 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type14 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.type15 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type16 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.type17 {
+  width: 50%;
+  display: block;
+  margin: 100px auto;
+}
+.type18 {
+  width: 30%;
+  position: absolute;
+  top: 260%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.pages {
+  background-color: #243630;
+}
+
+h2 {
+  color: #243630;
+  text-align: left;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.aboutBlock {
+  width: 100%;
+  height: 100%;
+  background: url(./img/back2.png);
+  background-position: left;
+  background-size: cover;
+}
+
+.aboutBlock div {
+  margin-top: -400px;
+  width: 40%;
+  margin-left: 57%;
+  color: #fff;
+}
+
+.aboutBlock h1 {
+  color: #fff;
+}
+.aboutBlock p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.liblock {
+  margin-top: 90px;
+}
+
+.liblock h2 {
+  color: black;
+  font-size: 30px;
+}
+
+.song {
+  background-color: "black";
+  margin-bottom: 60px;
+}
+
+.song img {
+  width: 150px;
+}
+
+.kkkk {
+  background: url(./img/back2.png);
+  width: 100%;
+  height: 110%;
+  background-position: left;
+  background-size: cover;
+}
